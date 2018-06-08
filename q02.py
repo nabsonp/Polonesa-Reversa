@@ -1,4 +1,4 @@
-pos = input()
+pos = input().split()
 pilha = []
 for i in range(len(pos)):
     if pos[i] == '*':
